@@ -4,18 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
+    <div class="menu">
+        <h1 class="title">Odin Recipes</h1>
+        <!-- List of recipes -->
+        <ul class="recipes">
+            <li>
+                <div class="description">
+                    <a href="recipes/tacos.html">Tacos de pastor</a>
+                    <p>Los tacos son tortillas con carne, pollo, pescado o vegetales, acompañados de salsa, cebolla,
+                        cilantro y limón, populares en México y otros lugares</p>
+                </div>
+                <img src="./recipes-images/tacos-pastor.jpg" alt="">
+            </li>
 
-    <!-- List of recpies -->
-    <ul>
-        <li><a href="recipes/tacos.html">Tacos de pastor</a></li>
-        <li><a href="recipes/arroz.html">Rice with chicken</a></li>
-        <li><a href="recipes/pasta.html">Pasta Salad</a></li>
-    </ul>
+            <li><a href="recipes/arroz.html">Rice with chicken</a><br>
+                <img src="./recipes-images/rice-with-chiken.jpg" alt="">
+            </li>
+
+            <li><a href="recipes/pasta.html">Pasta Salad</a><br>
+                <img src="./recipes-images/pasta-salad.jpg" alt="">
+            </li>
+
+        </ul>
+    </div>
 </body>
 
 </html>
